@@ -109,11 +109,13 @@ a{
 }
 .main-block h1{
     position: absolute;
-    top: 48%;
-    left: 38%;
+    /* top: 45%; */
+    top:30%;
+    left: 23%;
+    /* left: 35%; */
     /* color: #8a482e; */
     color: #543028;
-    font-size: 70px;
+    font-size: 90px;
     font-family: "Work Sans", sans-serif;
     font-weight: 600;
     text-shadow: -10px 10px 15px rgb(122, 120, 120);
@@ -121,17 +123,22 @@ a{
 .main-block p{
     width: 700px;
     position: absolute;
-    top: 35%;
-    left: 30%;
+    /* top: 32%; */
+    left: 45%;
+    top: 60%;
     /* color: #8a482e; */
-    color: #000000;
-    font-size: 28px;
-    font-family: "Work Sans", sans-serif;
-    font-weight: 600;
-    text-shadow: -10px 10px 15px rgb(122, 120, 120);
+    color: #c19d56;
+    font-size: 38px;
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
+    /* text-shadow: -10px 10px 15px rgb(122, 120, 120); */
 }
 .main-block p i{
-    color: #fe251b;
+    color: #c19d56;
+    font-size: 30px;
+    
 }
 .cake{
     width: 100%;
@@ -265,13 +272,7 @@ a{
     background-color: #543028;
     color: #f8f1e4;
 }
-.transition-2{
 
-    width: 100%;
-    height: 380px;
-    background-color: #2dbba4;
-    overflow: hidden;
-}
 .menu-block{
     width: 100%;
     margin: auto;
@@ -303,6 +304,7 @@ a{
     width: 50px;
     height: 50px;
     margin-top: 10px;
+    
 }
 .menu-cards-1{
     width: 85%;
@@ -334,38 +336,53 @@ a{
 .menu-img img{
     width: 100%;
     height: 200px;
+    border-radius: 20px;
 }
 
-.menu-title-1 h2{
+.menu-title-1 {
     position: absolute;
     top: 78%;
     left: 38%;
 }
-.menu-title-2 h2{
+.menu-title{
+    font-family: "Cormorant", serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 400;
+    font-style: italic;
+}
+.menu-title:hover{
+    color: #cd9122;
+}
+.menu-title-2{
     position: absolute;
     top: 78%;
     left: 35%;
 }
-.menu-title-3 h2{
+
+.menu-title-3 {
     position: absolute;
     top: 78%;
     left: 30%;
 }
-.menu-title-4 h2{
+
+.menu-title-4{
     position: absolute;
     top: 78%;
     left: 30%;
 }
-.menu-title-5 h2{
+
+.menu-title-5 {
     position: absolute;
     top: 78%;
     left: 35%;
 }
-.menu-title-6 h2{
+
+.menu-title-6 {
     position: absolute;
     top: 78%;
     left: 20%;
 }
+
 
 .menu-cards-2{
     width: 85%;
@@ -374,6 +391,17 @@ a{
     display: flex;
     justify-content: space-between;
 }
+
+
+.transition-2{
+
+    width: 100%;
+    height: 380px;
+    background-color: #2dbba4;
+    overflow: hidden;
+}
+
+
 .about-us
 {
     width: 100%;

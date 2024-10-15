@@ -1,6 +1,6 @@
 function sendWhatsAppMessage(){
 
-    const number = "+8483933860";
+    const number = "+8766453107";
 
     const name = document.getElementById("name").value;
     const message = document.getElementById("message").value;
@@ -11,4 +11,26 @@ function sendWhatsAppMessage(){
     
     window.open(url, '_blank').foucs();
 
+}
+
+let currentSlide = 0;
+
+function showSlide(index) {
+    const slides = document.querySelectorAll('.carousel-item');
+    const totalSlides = slides.length;
+
+    if (index >= totalSlides) {
+        currentSlide = 0;
+    } else if (index < 0) {
+        currentSlide = totalSlides - 1;
+    } else {
+        currentSlide = index;
+    }
+
+    const offset = -currentSlide * 80;
+    document.querySelector('.carousel-inner').style.transform = `translateX(${offset}%)`;
+}
+
+function moveSlide(direction) {
+    showSlide(currentSlide + direction);
 }

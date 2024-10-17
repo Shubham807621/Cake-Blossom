@@ -33,4 +33,12 @@ function showSlide(index) {
 
 function moveSlide(direction) {
     showSlide(currentSlide + direction);
+    colorChange();
 }
+
+
+// function colorChange(){
+
+//     const cards = document.getElementById('cards-1');
+//     cards.style.backgroundColor="#e2ded9";
+// }

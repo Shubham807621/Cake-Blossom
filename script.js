@@ -27,13 +27,12 @@ function showSlide(index) {
         currentSlide = index;
     }
 
-    const offset = -currentSlide * 80;
+    const offset = -currentSlide * 123;
     document.querySelector('.carousel-inner').style.transform = `translateX(${offset}%)`;
 }
 
 function moveSlide(direction) {
     showSlide(currentSlide + direction);
-    colorChange();
 }
 
 
